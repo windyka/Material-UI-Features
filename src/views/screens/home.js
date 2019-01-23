@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 // import AppHeader from '../component/appBar';
 // import PrimarySearchAppBar from '../component/appBarPrimary';
-import MenuAppBar from '../component/appBarMenu';
+// import MenuAppBar from '../component/appBarMenu';
+import BottomAppBar from '../component/appBarBottom';
 
 class Home extends Component {
   render() {
@@ -9,7 +10,8 @@ class Home extends Component {
       <div>
         {/* <AppHeader /> */}
         {/* <PrimarySearchAppBar /> */}
-        <MenuAppBar />
+        {/* <MenuAppBar /> */}
+        <BottomAppBar />
       </div>
     );
   }
