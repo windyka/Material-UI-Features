@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
-import AppHeader from '../component/appBar';
+// import AppHeader from '../component/appBar';
+import PrimarySearchAppBar from '../component/appBarPrimary';
 
 class Home extends Component {
   render() {
     return (
       <div>
-        <AppHeader />
+        {/* <AppHeader /> */}
+        <PrimarySearchAppBar />
       </div>
     );
   }
